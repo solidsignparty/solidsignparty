@@ -777,8 +777,8 @@ button,
       padding: 0; } }
 
 /* Header */
-#header h1 {
-  font-size: 3.25em;
+#header img {
+  width: 300px;
   margin: 0 0 0.55em 0; }
 
 #header p {
