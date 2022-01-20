@@ -779,7 +779,7 @@ button,
 /* Header */
 #header img {
   width: 300px;
-  margin: 0 0 0.55em 0; }
+  margin-bottom: 50px; }
 
 #header p {
   font-size: 1.35em;
