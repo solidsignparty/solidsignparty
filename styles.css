@@ -1,8 +1,42 @@
 body {
+  margin: 0;
   text-align: center;
-  background: url(images/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
+}
+
+.header {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  background-image:url("images/bg01.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.middle {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  background-image:url("images/bg02.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.bottom {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  background-image:url("images/bg03.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 .logo {
@@ -11,13 +45,18 @@ body {
 }
 
 footer {
+  padding: 10px;
+  text-align: center;
   color: #DBEDF3;
   font-family: sans-serif;
-  padding-bottom: 20px;
 }
 
 .social-icon {
   margin: 20px 10px;
   font-size: 25px;
   color: #ffffff;
+}
+
+.soundcloud {
+  padding: 10%;
 }
