@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-  padding: 50px;
+  padding: 7% 15%;
   width: 30%;
 }
 
@@ -59,4 +59,11 @@ footer {
 
 .soundcloud {
   padding: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    padding: 10%;
+    width: 80%;
+  }
 }
