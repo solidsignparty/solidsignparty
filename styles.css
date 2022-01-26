@@ -1,11 +1,11 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -45,20 +45,52 @@ p {
 }
 
 .logo {
-  padding-top: 7%;
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-img {
   width: 20%;
 }
 
 .date {
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
-.date-description {
-  padding: 0 10% 10% 10%;
+.date-title {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.date-description {
+  font-size: 1rem;
   line-height: 1.5;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 1px solid hsla(0,0%,100%,.4);
+  overflow: hidden;
+  outline:none;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 5%;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000;
 }
 
 footer {
@@ -79,8 +111,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .logo {
-    padding: 10%;
+  .logo-img {
     width: 80%;
+  }
+  .date-description {
+    padding: 0 10% 0 10%;
   }
 }
