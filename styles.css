@@ -3,6 +3,11 @@ body {
   text-align: center;
 }
 
+p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .header {
   width: 100%;
   display: table;
@@ -40,8 +45,20 @@ body {
 }
 
 .logo {
-  padding: 7% 15%;
-  width: 30%;
+  padding-top: 7%;
+  width: 20%;
+}
+
+.date {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.date-description {
+  padding: 0 10% 10% 10%;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 footer {
