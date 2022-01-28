@@ -44,8 +44,30 @@ h1, h2, p {
   background-size:cover;
 }
 
+.container {
+  position: relative;
+  text-align: right;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.date {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .logo-img {
   width: 100%;
+}
+
+.location-title {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .button {
@@ -55,11 +77,12 @@ h1, h2, p {
   overflow: hidden;
   outline:none;
   color: #ffffff;
-  padding: 16px 32px;
+  padding: 16px 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
   transition-duration: 0.4s;
   cursor: pointer;
   margin-bottom: 5%;
@@ -68,6 +91,19 @@ h1, h2, p {
 .button:hover {
   background-color: #ffffff;
   color: #000;
+}
+
+.dj-container {
+  position: relative;
+  text-align: center;
+}
+
+.dj-title {
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  margin: 20px;
 }
 
 .dj-image {
@@ -99,12 +135,6 @@ footer {
 }
 
 /* ==== GRID SYSTEM ==== */
-
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .row {
   position: relative;
