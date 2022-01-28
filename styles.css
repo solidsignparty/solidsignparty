@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 h1, h2, p {
@@ -44,19 +44,28 @@ h1, h2, p {
   background-size:cover;
 }
 
+/* Header section */
 .container {
-  height: 100vh;
-
+  padding: 20% 12.5%;
+  height: 70vh;
   position: relative;
   background-color: #000;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .top-right {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 2%;
+  right: 24.5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.social-icon:hover {
+  color: #000;
 }
 
 .social-links {
@@ -66,6 +75,7 @@ h1, h2, p {
 .date {
   font-size: 2rem;
   font-weight: bold;
+  text-align: right;
 }
 
 .logo-img {
@@ -73,6 +83,7 @@ h1, h2, p {
 }
 
 .location-title {
+  margin: 3rem;
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
@@ -85,7 +96,7 @@ h1, h2, p {
   overflow: hidden;
   outline:none;
   color: #ffffff;
-  padding: 16px 100px;
+  padding: 16px 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -101,16 +112,15 @@ h1, h2, p {
   color: #000;
 }
 
+/* Middle container */
 .dj-container {
   position: relative;
-  text-align: center;
 }
 
 .dj-title {
   font-size: 3rem;
   font-weight: bold;
   position: absolute;
-  text-align: center;
   margin: 20px;
 }
 
@@ -131,17 +141,12 @@ h1, h2, p {
   transform: translate(-50%, -50%);
 }
 
+/* Footer */
 footer {
   padding: 50px;
   text-align: center;
   color: #DBEDF3;
   font-family: sans-serif;
-}
-
-.social-icon {
-  margin: 20px 10px;
-  font-size: 25px;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
@@ -159,7 +164,6 @@ footer {
 
 .row [class^="col"] {
   float: left;
-  margin-right: 1.5rem;
   min-height: 0.125rem;
 }
 
@@ -176,6 +180,7 @@ footer {
 .col-11,
 .col-12 {
   width: 96%;
+  margin-right: 3.5rem;
 }
 
 .col-1-sm {
@@ -238,7 +243,7 @@ footer {
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 
