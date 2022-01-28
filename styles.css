@@ -21,6 +21,10 @@ html {
   display: flex;
 }
 
+.page:nth-child(2n+1) {
+  flex-direction: row-reverse;
+}
+
 .tile {
   flex: 1;
   background-color: rgba(0, 0, 0, 0.6);
@@ -148,7 +152,7 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .page {
+  .page, .page:nth-child(2n+1) {
     height: 200vh;
     flex-direction: column;
   }
@@ -181,6 +185,6 @@ html {
 
   .title {
     font-size: 28px;
-  } 
+  }
 
 }
