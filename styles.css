@@ -73,7 +73,7 @@ h1, h2, p {
 .button {
   background-color: Transparent;
   background-repeat:no-repeat;
-  border: 1px solid hsla(0,0%,100%,.4);
+  border: 2px solid hsla(0,0%,100%,.4);
   overflow: hidden;
   outline:none;
   color: #ffffff;
@@ -113,6 +113,13 @@ h1, h2, p {
 .dj-bio {
   text-align: left;
   font-size: 1.5rem;
+}
+
+.dj-mix-centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer {
