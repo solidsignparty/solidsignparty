@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Arial';
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   vertical-align: center;
   color: #fff;
@@ -38,6 +38,8 @@ html {
 .bio {
   text-align: left;
   padding: 30px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
 }
 
 .artist-photo {
