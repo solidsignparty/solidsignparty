@@ -69,6 +69,16 @@ html {
   background-image: url("images/skind.jpg");
 }
 
+.merra {
+  background-image: url("images/bg03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.merra>.artist-photo {
+  background-image: url("images/merra.jpg");
+}
+
 .artist-photo {
   position: relative;
 }
@@ -155,7 +165,7 @@ html {
 
 @media screen and (max-width: 600px) {
   .page, .page:nth-child(2n+1) {
-    height: 200vh;
+    height: 300vh;
     flex-direction: column;
   }
 
