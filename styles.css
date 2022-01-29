@@ -174,15 +174,6 @@ html {
     justify-content: space-around;
   }
 
-  .tile {
-    height: 100vh;
-  }
-
-  .bio {
-    font-size: 12px;
-    padding: 5%;
-  }
-
   .logo {
     width: 300px;
     height: 300px;
