@@ -167,7 +167,6 @@ html {
   .page, .page:nth-child(2n+1) {
     height: 200vh;
     flex-direction: column;
-    margin-bottom: 60%;
   }
 
   .social {
@@ -177,6 +176,10 @@ html {
 
   .tile {
     height: 100vh;
+  }
+
+  .bio {
+    font-size: 12px;
   }
 
   .logo {
