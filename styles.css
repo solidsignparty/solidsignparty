@@ -167,6 +167,7 @@ html {
   .page, .page:nth-child(2n+1) {
     height: 200vh;
     flex-direction: column;
+    margin-bottom: 60%;
   }
 
   .social {
