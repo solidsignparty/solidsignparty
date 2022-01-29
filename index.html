@@ -116,4 +116,12 @@
     </div>
   </div>
 </body>
+<script lang="javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+    var mixes = document.getElementsByTagName('iframe');
+    for (var i = 0; i < mixes.length; i++) {
+      mixes[i].style.filter = 'grayscale(1)';
+    }
+  });
+</script>
 </html>
