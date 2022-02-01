@@ -70,13 +70,23 @@ html {
 }
 
 .merra {
-  background-image: url("images/bg03.jpg");
+  background-image: url("images/bg01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .merra>.artist-photo {
   background-image: url("images/merra.jpg");
+}
+
+.progruss {
+  background-image: url("images/bg03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.progruss>.artist-photo {
+  background-image: url("images/progruss.jpg");
 }
 
 .artist-photo {
