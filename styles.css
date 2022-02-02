@@ -70,7 +70,7 @@ html {
 }
 
 .merra {
-  background-image: url("images/bg01.jpg");
+  background-image: url("images/bg03.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,13 +80,23 @@ html {
 }
 
 .progruss {
-  background-image: url("images/bg03.jpg");
+  background-image: url("images/bg01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .progruss>.artist-photo {
   background-image: url("images/progruss.jpg");
+}
+
+.djaff {
+  background-image: url("images/bg02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.djaff>.artist-photo {
+  background-image: url("images/djaff.jpg");
 }
 
 .artist-photo {
