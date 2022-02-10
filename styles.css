@@ -11,23 +11,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.header {
-  height: 100vh;
-  background-color: rgb(5, 5, 5);
-}
-
 .page {
   min-height: 100vh;
   display: flex;
 }
 
-.page:nth-child(2n+1) {
+.page:nth-child(2n+3) {
   flex-direction: row-reverse;
 }
 
 .tile {
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .lineup {
@@ -122,12 +117,13 @@ html {
 
 
 .solid-sign {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  background-color: #000;
 }
 
 .logo {
@@ -139,27 +135,18 @@ html {
 }
 
 .title {
-  font-size: 26px;
+  font-size: 1.5em;
   font-weight: bold;
-  text-align: center;
 }
 
 .title p {
-  width: 100%;
+  margin: 0;
 }
 
 .social {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.social-title {
-  width: 400px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .ticket {
@@ -191,6 +178,7 @@ html {
 
 .social-link img {
   height: 64px;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 320px) {
@@ -206,7 +194,6 @@ html {
   }
 
   .social {
-    width: 100%;
     justify-content: space-around;
   }
 
@@ -219,20 +206,48 @@ html {
     height: 300px;
   }
 
-  .social-title, .ticket {
-    width: 300px;
+  .style {
+    display: none;
   }
 
-  .social-title {
-    flex-direction: column;
-  }
+}
 
-  .social-link img {
-    height: 48px;
-  }
+.time {
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+  font-family: monospace;
+}
 
-  .title {
-    font-size: 28px;
-  }
+.lineup {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.85);
+}
 
+.header {
+  background-image: url('images/first-page.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lineup li {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+.lineup ul {
+  padding: 0;
+}
+
+.dj {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.style {
+  font-size: 0.7em;
 }
