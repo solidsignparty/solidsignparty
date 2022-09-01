@@ -122,18 +122,19 @@ html {
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .logo {
-  width: 400px;
-  height: 400px;
-  background-image: url("images/solid_sign\ 1.png");
+  width: 256px;
+  height: 256px;
+  background-image: url("images/solid_sign.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
 
 .title {
+  text-align: center;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -176,8 +177,8 @@ html {
 }
 
 .social-link img {
-  height: 64px;
-  padding: 0 20px;
+  height: 48px;
+  padding: 0 40px;
 }
 
 @media screen and (max-width: 320px) {
@@ -201,8 +202,8 @@ html {
   }
 
   .logo {
-    width: 300px;
-    height: 300px;
+    width: 256px;
+    height: 256px;
   }
 
   .style {
@@ -234,11 +235,17 @@ html {
   justify-content: center;
 }
 
-.header {
+.solid-sign-1 {
   background-image: url('images/first-page.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+/**/
+/* .solid-sign-2 { */
+/*   background-image: url('images/solid-sign-2-bg.jpeg'); */
+/*   background-repeat: no-repeat; */
+/*   background-size: cover; */
+/* } */
 
 .lineup li {
   font-size: 1.5em;
@@ -256,4 +263,20 @@ html {
 
 .style {
   font-size: 0.7em;
+}
+
+.arrow {
+  width: 18px;
+  height: 32px;
+  background-image: url('images/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.next-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
