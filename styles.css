@@ -126,8 +126,8 @@ html {
 }
 
 .logo {
-  width: 256px;
-  height: 256px;
+  width: 344px;
+  height: 344px;
   background-image: url("images/solid_sign.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ html {
 
 .ticket {
   font-weight: bold;
-  width: 400px;
+  width: 256px;
   height: 64px;
   text-align: center;
   vertical-align: middle;
