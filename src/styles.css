@@ -45,63 +45,63 @@ html {
 }
 
 .electrostatic {
-  background-image: url("images/bg01.jpg");
+  background-image: url("/images/bg01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .electrostatic>.artist-photo {
-  background-image: url("images/electrostatic.jpg");
+  background-image: url("/images/electrostatic.jpg");
 }
 
 .skind {
-  background-image: url("images/bg02.jpg");
+  background-image: url("/images/bg02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .skind>.artist-photo {
-  background-image: url("images/skind.jpg");
+  background-image: url("/images/skind.jpg");
 }
 
 .merra {
-  background-image: url("images/bg03.jpg");
+  background-image: url("/images/bg03.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .merra>.artist-photo {
-  background-image: url("images/merra.jpg");
+  background-image: url("/images/merra.jpg");
 }
 
 .progruss {
-  background-image: url("images/bg01.jpg");
+  background-image: url("/images/bg01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .progruss>.artist-photo {
-  background-image: url("images/progruss.jpg");
+  background-image: url("/images/progruss.jpg");
 }
 
 .djaff {
-  background-image: url("images/bg02.jpg");
+  background-image: url("/images/bg02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .djaff>.artist-photo {
-  background-image: url("images/djaff.jpg");
+  background-image: url("/images/djaff.jpg");
 }
 
 .akinov {
-  background-image: url("images/bg03.jpg");
+  background-image: url("/images/bg03.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .akinov>.artist-photo {
-  background-image: url("images/akinov.jpg");
+  background-image: url("/images/akinov.jpg");
 }
 
 .artist-photo {
@@ -128,7 +128,7 @@ html {
 .logo {
   width: 344px;
   height: 344px;
-  background-image: url("images/solid_sign.png");
+  background-image: url("/images/solid_sign.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
@@ -197,13 +197,13 @@ html {
 }
 
 .solid-sign-1 {
-  background-image: url('images/first-page.jpeg');
+  background-image: url('/images/first-page.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .solid-sign-2 {
-  background-image: url('images/solid-sign-2-bg.jpeg');
+  background-image: url('/images/solid-sign-2-bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -229,7 +229,7 @@ html {
 .arrow {
   width: 18px;
   height: 32px;
-  background-image: url('images/arrow.svg');
+  background-image: url('/images/arrow.svg');
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-repeat: no-repeat;
