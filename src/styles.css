@@ -112,7 +112,7 @@ html {
   position: absolute;
   width: 100%;
   bottom: 0;
-  height: 120px;
+  height: 166px;
 }
 
 .solid-sign {
@@ -151,7 +151,6 @@ html {
 
 .ticket {
   font-weight: bold;
-  width: 256px;
   height: 64px;
   text-align: center;
   vertical-align: middle;
@@ -250,7 +249,8 @@ html {
   background-color: black;
   height: 100%;
   width: 38%;
-  min-width: 344px;
+  min-width: 300px;
+  padding: 0 100px;
 }
 
 @media screen and (max-width: 320px) {
