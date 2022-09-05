@@ -28,7 +28,7 @@ const Artists = () => (
       />
       <hr />
       <div style={{ textAlign: 'right' }}>
-        <ArtistTitle title='Electorstatic' />
+        <ArtistTitle title='Electrostatic' />
         <ArtistTitle title='Djaff' />
         <ArtistTitle title='Akinov' />
         <ArtistTitle title='SKind' />
