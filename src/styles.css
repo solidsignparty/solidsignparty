@@ -249,7 +249,7 @@ html {
   height: 100%;
   width: 38%;
   min-width: 300px;
-  padding: 0 100px;
+  margin: 0 100px;
 }
 
 @media screen and (max-width: 320px) {
