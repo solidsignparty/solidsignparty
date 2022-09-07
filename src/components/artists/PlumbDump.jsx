@@ -7,9 +7,6 @@ const PlumbDump = () => (
   <Artist
     id="plumbdump"
     photo={photo.src}
-    photoStyle={{
-      backgroundSize: '100% auto',
-    }}
     title="Plumb Dump"
     bio={<>
       <p>
