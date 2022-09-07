@@ -10,7 +10,8 @@ const Artist = ({ id, title, bio, photo, mix }) => (
     <div className="tile" style={{
       backgroundImage: `url(${photo})`,
       backgroundRepeat: 'noRepeat',
-      backgroundSize: 'cover',
+      backgroundSize: 'auto 100%',
+      backgroundPosition: 'center',
       position: 'relative',
     }}>
       <div className="mix">
