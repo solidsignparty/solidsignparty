@@ -7,7 +7,8 @@ const Mrac = () => (
   <Artist
     id="mrac"
     photo={photo.src}
-    title="Mrac"
+    title={<b>MRAC</b>}
+    group="Monasterio Moscow"
     bio={<>
       <p>
         Mrac родился в одном из промышленных районов Самары на заре 80-х.

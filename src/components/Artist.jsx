@@ -1,9 +1,12 @@
 
-const Artist = ({ id, title, bio, photo, mix }) => (
+const Artist = ({ id, title, group, bio, photo, mix }) => (
   <div className="page" id={id}>
     <div className="tile">
       <div className="bio">
-        <h1>{title}</h1>
+        <h1>
+          {title}
+          {group && (<span style={{ fontSize: '0.5em', display: 'block', paddingTop: 10 }}>({group})</span>)}
+        </h1>
         {bio}
       </div>
     </div>
