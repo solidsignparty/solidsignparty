@@ -1,5 +1,5 @@
 
-const Artist = ({ id, title, group, bio, photo, mix }) => (
+const Artist = ({ id, title, group, bio, photo, mix, photoStyle }) => (
   <div className="page" id={id}>
     <div className="tile">
       <div className="bio">
@@ -12,10 +12,11 @@ const Artist = ({ id, title, group, bio, photo, mix }) => (
     </div>
     <div className="tile" style={{
       backgroundImage: `url(${photo})`,
-      backgroundRepeat: 'noRepeat',
+      backgroundRepeat: 'no-repeat',
       backgroundSize: 'auto 100%',
       backgroundPosition: 'center',
       position: 'relative',
+      ...photoStyle,
     }}>
       <div className="mix">
         {mix}
@@ -42,5 +43,9 @@ const Artist2 = ({ id, title, bio, photo, mix }) => (
         {bio}
   </div>
 );
+
+Artist.defaultProps = {
+  photoStyle: {},
+};
 
 export default Artist;

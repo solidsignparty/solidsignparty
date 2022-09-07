@@ -10,11 +10,6 @@ const Electrostatic = () => (
     title="Electrostatic"
     bio={<>
       <p>
-        Приверженец настоящего техно туманного альбиона.
-        Участник крупнейших ивентов Татарстана и России: Technopolis, Millenium, NK Techno Zona,
-        Underground Experience, Raving Moscow, YU-PORT и т.д.
-      </p>
-      <p>
         Участник Питерского винилового лейбла "Interstate One", который производит пластинки в Лондоне.
         На лейбле издаются русские, английские музыканты так и эйсид техно продюссеры из других стран.
         Их треки звучат на Лондонских рейвах, Сквот пати, пластинки разлетаются на сайте лейбла
@@ -26,12 +21,9 @@ const Electrostatic = () => (
       </p>
     </>}
     mix={
-      <iframe
-        width="100%"
-        height="120"
-        src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FElectrostatic%2Fhard-force-united-friends-summer-session-2018%2F"
-        frameBorder="0"
-      />
+    <div className="mix" style={{ height: 166 }}>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297843001&color=%232c2c2c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+    </div>
     }
   />
 );
