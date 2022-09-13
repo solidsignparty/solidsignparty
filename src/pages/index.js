@@ -7,6 +7,7 @@ import PlumbDump from '../components/artists/PlumbDump.jsx';
 import Electrostatic from '../components/artists/Electrostatic.jsx';
 import SKind from '../components/artists/SKind.jsx';
 import Djaff from '../components/artists/Djaff.jsx';
+import Akinov from '../components/artists/Akinov.jsx';
 import SolidSign2 from '../components/SolidSign2.jsx';
 
 
@@ -16,6 +17,7 @@ export default function Home({ photos }) {
       <Head />
       <SolidSign2 />
       <Mrac />
+      <Akinov />
       <Electrostatic />
       <AndyShibo />
       <Djaff />
