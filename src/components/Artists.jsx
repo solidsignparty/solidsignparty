@@ -2,6 +2,7 @@ import Page from './Page.jsx';
 import BuyTicket from './BuyTicket.jsx';
 import SocialLinks from './SocialLinks.jsx';
 import Logo from './Logo.jsx';
+import Opera from './Opera.jsx';
 
 import background from '../public/images/background-artists.jpg';
 
@@ -37,6 +38,7 @@ const Artists = () => (
         <ArtistTitle title='Plumb Dump' />
       </div>
     </div>
+    <Opera />
     <BuyTicket width='100%' />
     <SocialLinks width='100%' />
   </Page>
