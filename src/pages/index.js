@@ -9,6 +9,7 @@ import SKind from '../components/artists/SKind.jsx';
 import Djaff from '../components/artists/Djaff.jsx';
 import Akinov from '../components/artists/Akinov.jsx';
 import SolidSign2 from '../components/SolidSign2.jsx';
+import LineUp from '../components/LineUp.jsx';
 
 
 export default function Home({ photos }) {
@@ -16,6 +17,7 @@ export default function Home({ photos }) {
     <>
       <Head />
       <SolidSign2 />
+      <LineUp />
       <Mrac />
       <Akinov />
       <Electrostatic />
