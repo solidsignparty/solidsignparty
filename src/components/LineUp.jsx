@@ -30,7 +30,7 @@ const LineUp = () => (
         {time: '23:00', artist: 'Andy Shibo'},
         {time: '00:00', artist: 'Akinov'},
         {time: '01:00', artist: 'Mrac'},
-        {time: '03:00', artist: 'Vasques vs. SKind'},
+        {time: '03:00', artist: 'Vasques & SKind'},
       ]}
     />
     <TimeTable
