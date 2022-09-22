@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import BuyTicket from './BuyTicket.jsx';
 import SocialLinks from './SocialLinks.jsx';
 import Logo from './Logo.jsx';
 import Page from './Page.jsx';
@@ -19,7 +18,6 @@ const SolidSign2 = () => (
       </div>
     </div>
     <Opera />
-    <BuyTicket width='100%' />
   </Page>
 );
 

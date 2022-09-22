@@ -1,5 +1,4 @@
 import Page from './Page.jsx';
-import BuyTicket from './BuyTicket.jsx';
 import SocialLinks from './SocialLinks.jsx';
 import Logo from './Logo.jsx';
 import Opera from './Opera.jsx';
@@ -39,7 +38,6 @@ const Artists = () => (
       </div>
     </div>
     <Opera />
-    <BuyTicket width='100%' />
     <SocialLinks width='100%' />
   </Page>
 );
