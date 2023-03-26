@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import SocialLinks from './SocialLinks.jsx';
 import Logo from './Logo.jsx';
 import Page from './Page.jsx';
