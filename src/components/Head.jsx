@@ -17,12 +17,9 @@ const Header = () => (
     <meta property="profile:first_name" content="Solid" />
     <meta property="profile:last_name" content="Sign" />
     <meta name="theme-color" content="#131313" />
-
     <meta name="description" content="" />
     <meta name="keywords" content="Techno" />
     <meta name="author" content="Solid Sign" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
   </Head>
 );
 
