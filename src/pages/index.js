@@ -1,7 +1,6 @@
 import Head from '../components/Head.jsx';
 import Logo from '../components/Logo.jsx';
 import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
@@ -87,7 +86,7 @@ export default function Home({ photos }) {
                 </Typography>
             </Stack>
           </Stack>
-          <Stack pt={5} width="100%">
+          <Stack pt={5} pb={5} width="100%">
             <Button
               variant="outlined"
               href="https://nabchelny.qtickets.events/67013-solid-sign-3&utm_source=site"
