@@ -6,7 +6,17 @@ import '@fontsource/montserrat/400.css';
 import '@fontsource/montserrat/500.css';
 import '@fontsource/montserrat/700.css';
 
+const white = {
+  light: '#fff',
+  main: '#eee',
+  dark: '#aaa',
+  contrastText: '#fff',
+};
+
 const theme = createTheme({
+  palette: {
+    primary: white,
+  },
   typography: {
     fontFamily: [
       'Montserrat',
