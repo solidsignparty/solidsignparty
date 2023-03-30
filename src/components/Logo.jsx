@@ -7,19 +7,12 @@ const Logo = ({ maxSize, minSize }) => {
   const size = matches ? maxSize : minSize;
   const margin = matches ? 0 : 10;
   return (
-    <div style={{
-      backgroundImage: `url(${logo.src})`,
-      width: size,
-      height: size,
-      backgroundSize: 'auto 100%',
-      backgroundRepeat: 'no-repeat',
-      margin,
-    }} />
+    <img src={logo.src} width={300} />
   );
 };
 
 Logo.defaultProps = {
-  maxSize: 344,
+  maxSize: 200,
   minSize: 200,
 };
 
