@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'ProtoSans56';
+	src: url('../public/fonts/protosans56.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/protosans56.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/protosans56.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/protosans56.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/protosans56.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/protosans56.svg#protosans56') format('svg'); /* Chrome < 4, Legacy iOS */
+}

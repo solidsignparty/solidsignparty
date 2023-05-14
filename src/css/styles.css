@@ -6,3 +6,11 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+hr {
+  height: 1px;
+}
+
+.solid-sign {
+  font-family: "ProtoSans56"
+}
