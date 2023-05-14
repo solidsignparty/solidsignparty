@@ -12,7 +12,7 @@ export default function Document() {
       <meta property="og:title" content="Solid Sign" />
       <meta property="og:description" content="Hard Techno в Набережных Челнах" />
       <meta property="og:url" content="https://solidsign.ru" />
-      <meta property="og:image" content="/static/logo.png" />
+      <meta property="og:image" content="/logo.png" />
       <meta property="profile:first_name" content="Solid" />
       <meta property="profile:last_name" content="Sign" />
       <meta name="theme-color" content="#131313" />
