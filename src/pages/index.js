@@ -21,7 +21,7 @@ export default () => {
             color="gray"
             sx={{ pb: 2 }}
           >
-            Вечеринка состоялась
+            Мероприятие состоялось
           </Typography>
           <img
             style={{
@@ -41,13 +41,32 @@ export default () => {
             color="gray"
             sx={{ pb: 2 }}
           >
-            Вечеринка состоялась
+            Мероприятие состоялось
           </Typography>
           <img
             style={{
               maxWidth: "100%",
             }}
             src="https://sun9-70.userapi.com/impg/42mWXe3qLNLlEnGevglp-j6gcO7AjETLGH0vpQ/ryOFl84bn2c.jpg?size=1180x1180&quality=95&sign=76ded8cb3ba85b7529aecdc7c663e595&type=album"
+          />
+        </Box>
+        <Box>
+          <Typography
+            color="white"
+          >
+            11.02.2022
+          </Typography>
+          <Typography
+            color="gray"
+            sx={{ pb: 2 }}
+          >
+            Мероприятие состоялось
+          </Typography>
+          <img
+            style={{
+              maxWidth: "100%",
+            }}
+            src="https://sun9-73.userapi.com/impg/XCsc79EGLYsovqWNvueDVZZMgcHech29KJ4O3g/eEZFPbUMtqY.jpg?size=1280x1235&quality=95&sign=3cb40148ae823033626c2a80ff9ebfa7&type=album"
           />
         </Box>
         <Box />
