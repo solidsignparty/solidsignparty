@@ -34,12 +34,16 @@ export default () => {
     <AppBar component="nav" sx={{ borderBottom: 1, borderColor: '#333' }}>
       <Container maxWidth="lg">
         <Toolbar disableGutters>
-          <Logo height="24"/>
+          <a href="/">
+            <Logo height="24"/>
+          </a>
           <Typography
     className="solid-sign"
             noWrap
+            component="a"
+            href="/"
             color="white"
-            sx={{ pl: 1, pt: "3px", flexGrow: 1 }}
+            sx={{ pl: 1, pt: "3px", flexGrow: 1, textDecoration: "none" }}
           >
             SOLID SIGN
           </Typography>
