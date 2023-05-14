@@ -12,5 +12,5 @@ hr {
 }
 
 .solid-sign {
-  font-family: "ProtoSans56"
+  font-family: "ProtoSans56" !important;
 }
