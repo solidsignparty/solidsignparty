@@ -38,12 +38,12 @@ export default () => {
             <Logo height="24"/>
           </a>
           <Typography
-    className="solid-sign"
+            className="solid-sign"
             noWrap
             component="a"
             href="/"
             color="white"
-            sx={{ pl: 1, pt: "3px", flexGrow: 1, textDecoration: "none" }}
+            sx={{ pl: 1, flexGrow: 1, textDecoration: "none" }}
           >
             SOLID SIGN
           </Typography>
