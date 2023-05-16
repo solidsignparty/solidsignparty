@@ -29,6 +29,7 @@ const black = {
 const theme = createTheme({
   palette: {
     primary: black,
+    button: white,
   },
   typography: {
     fontFamily: [

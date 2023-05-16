@@ -1,8 +1,8 @@
 import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import PageWithMenu from '../components/PageWithMenu';
+import Party from '../components/Party';
 
+import solidSign4 from '../public/images/solid-sign-4.jpg';
 import solidSign3 from '../public/images/solid-sign-3.jpg';
 import solidSign2 from '../public/images/solid-sign-2.jpg';
 import solidSign1 from '../public/images/solid-sign-1.jpg';
@@ -15,65 +15,24 @@ export default () => {
         justifyContent="space-around"
         spacing={5}
       >
-        <Box>
-          <Typography
-            color="white"
-          >
-            28.05.2023
-          </Typography>
-          <Typography
-            color="gray"
-            sx={{ pb: 2 }}
-          >
-            Мероприятие состоялось
-          </Typography>
-          <img
-            style={{
-              maxWidth: "100%",
-              objectPosition: "-1px -1px",
-            }}
-            src={solidSign3.src}
-          />
-        </Box>
-        <Box>
-          <Typography
-            color="white"
-          >
-            16.09.2022
-          </Typography>
-          <Typography
-            color="gray"
-            sx={{ pb: 2 }}
-          >
-            Мероприятие состоялось
-          </Typography>
-          <img
-            style={{
-              maxWidth: "100%",
-            }}
-            src={solidSign2.src}
-          />
-        </Box>
-        <Box>
-          <Typography
-            color="white"
-          >
-            11.02.2022
-          </Typography>
-          <Typography
-            color="gray"
-            sx={{ pb: 2 }}
-          >
-            Мероприятие состоялось
-          </Typography>
-          <img
-            style={{
-              maxWidth: "100%",
-            }}
-            src={solidSign1.src}
-          />
-        </Box>
-        <Box />
+        <Party
+          date={new Date('2023-05-26')}
+          img={solidSign4}
+          href="https://nabchelny.qtickets.events/72807-solid-sign-uu"
+        />
+        <Party
+          date={new Date('2023-04-28')}
+          img={solidSign3}
+          objectPosition="-1px -1px"
+        />
+        <Party
+          date={new Date('2022-09-16')}
+          img={solidSign2}
+        />
+        <Party
+          date={new Date('2022-02-11')}
+          img={solidSign1}
+        />
       </Stack>
     </PageWithMenu>
   );
