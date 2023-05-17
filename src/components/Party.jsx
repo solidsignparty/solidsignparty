@@ -44,7 +44,7 @@ export default ({ date, img, href, ...props }) => {
           sx={{ pt: 2 }}
         >
           <Button
-            variant="outlined"
+            variant="contained"
             component="a"
             target="_blank"
             href={href}

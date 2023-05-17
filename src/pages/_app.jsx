@@ -14,9 +14,9 @@ import '@fontsource/montserrat/700.css';
 
 const white = {
   light: '#fff',
-  main: '#eee',
-  dark: '#aaa',
-  contrastText: '#fff',
+  main: '#fff',
+  dark: '#ddd',
+  contrastText: '#000',
 };
 
 const black = {
