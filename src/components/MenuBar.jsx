@@ -14,7 +14,6 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import { SvgIcon } from '@mui/material';
 
 import Logo from './Logo';
 import vk_logo from '../public/images/vk_logo.svg';
@@ -54,16 +53,19 @@ export default () => {
           <IconButton
             sx={{ p: '7px' }}
             href="https://vk.com/solidsign"
+            target="_blank"
           >
             <img height={26} width={26} src={vk_logo.src} />
           </IconButton>
           <IconButton
             href="https://instagram.com/solidsignru"
+            target="_blank"
           >
             <InstagramIcon sx={{ color: '#fff' }}/>
           </IconButton>
           <IconButton
             href="https://t.me/solidsignru"
+            target="_blank"
           >
             <TelegramIcon sx={{ color: '#fff' }}/>
           </IconButton>
