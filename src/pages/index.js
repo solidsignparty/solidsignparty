@@ -25,7 +25,6 @@ export default () => {
         <Party
           date={new Date('2023-06-30')}
           img={solidSign5}
-          href="https://nabchelny.qtickets.events/75912-solid-sign-special-2"
         />
         <Party
           date={new Date('2023-05-26')}
