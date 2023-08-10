@@ -2,6 +2,7 @@ import Stack from '@mui/material/Stack';
 import PageWithMenu from '../components/PageWithMenu';
 import Party from '../components/Party';
 
+import urbantatar from '../public/images/urbantatar.jpg';
 import solidSign5 from '../public/images/solid-sign-5.jpg';
 import solidSign4 from '../public/images/solid-sign-4.jpg';
 import solidSign3 from '../public/images/solid-sign-3.jpg';
@@ -16,6 +17,11 @@ export default () => {
         justifyContent="space-around"
         spacing={5}
       >
+        <Party
+          date={new Date('2023-08-19')}
+          img={urbantatar}
+          href="https://urbantatar.timepad.ru/event/2507995/"
+        />
         <Party
           date={new Date('2023-06-30')}
           img={solidSign5}
