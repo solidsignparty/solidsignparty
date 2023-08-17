@@ -22,7 +22,8 @@ export default () => {
           date={new Date('2023-09-08')}
           img={solidSign6}
           href="https://nabchelny.qtickets.events/78444-solid-sign-40"
-        />
+        >
+          <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1507329757&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>        </Party>
         <Party
           date={new Date('2023-08-19')}
           img={urbantatar}

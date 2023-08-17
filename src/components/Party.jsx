@@ -16,7 +16,7 @@ const formatDate = (d) => {
   return `${d.getDate().toString().padStart(2, "0")}.${(d.getMonth() + 1).toString().padStart(2, "0")}.${d.getFullYear()}`;
 };
 
-export default ({ date, img, href, ...props }) => {
+export default ({ date, img, href, children, ...props }) => {
   const upcoming = !compareDate(new Date(), date);
   return (
     <Box>
@@ -36,6 +36,7 @@ export default ({ date, img, href, ...props }) => {
           style={{ maxWidth: "100%", ...props }}
           src={img.src}
         />
+        {children}
       </Stack>
       {upcoming && href && (
         <Stack
