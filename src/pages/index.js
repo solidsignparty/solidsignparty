@@ -18,11 +18,11 @@ const events = [
   {
     date: new Date('2023-09-16'),
     img: reset,
+    href: "https://instagram.com/r_set.fest?igshid=MzRlODBiNWFlZA==",
   },
   {
     date: new Date('2023-09-08'),
     img: solidSign6,
-    href: "https://nabchelny.qtickets.events/78444-solid-sign-40",
   },
   {
     date: new Date('2023-08-25'),
