@@ -19,6 +19,13 @@ const white = {
   contrastText: '#000',
 };
 
+const link = {
+  light: '#ddd',
+  main: '#ddd',
+  dark: '#ddd',
+  contrastText: '#000',
+};
+
 const black = {
   light: '#000',
   main: '#000',
@@ -30,6 +37,7 @@ const theme = createTheme({
   palette: {
     primary: black,
     button: white,
+    link: link,
   },
   typography: {
     fontFamily: [
