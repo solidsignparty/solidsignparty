@@ -13,8 +13,15 @@ import solidSign4 from '../public/images/solid-sign-4.jpg';
 import solidSign3 from '../public/images/solid-sign-3.jpg';
 import solidSign2 from '../public/images/solid-sign-2.jpg';
 import solidSign1 from '../public/images/solid-sign-1.jpg';
+import kama from '../public/images/kama.jpeg';
+
 
 const events = [
+  {
+    date: new Date('2023-09-29'),
+    img: kama,
+    href: "https://kamarave.ru/",
+  },
   {
     date: new Date('2023-09-16'),
     img: reset,
