@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import reset from '../public/images/reset.jpg';
 import harsh from '../public/images/harsh.jpg';
 import urbantatar from '../public/images/urbantatar.jpg';
+import solidSign7 from '../public/images/solid-sign-7.jpg';
 import solidSign6 from '../public/images/solid-sign-6.jpg';
 import solidSign5 from '../public/images/solid-sign-5.jpg';
 import solidSign4 from '../public/images/solid-sign-4.jpg';
@@ -17,6 +18,27 @@ import kama from '../public/images/kama.jpeg';
 
 
 const events = [
+  {
+    date: new Date('2023-10-20'),
+    img: solidSign7,
+    href: "https://nabchelny.qtickets.events/85137-solid-sign-special-3",
+    children: (
+      <Stack>
+        <Button
+          variant="outlined"
+          component="a"
+          target="_blank"
+          href="https://t.me/solidsignchat/11148"
+          sx={{
+            width: 200,
+          }}
+          color="button"
+        >
+          Проголосовать
+        </Button>
+      </Stack>
+    ),
+  },
   {
     date: new Date('2023-09-29'),
     img: kama,
