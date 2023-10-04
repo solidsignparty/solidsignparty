@@ -16,6 +16,7 @@ import solidSign2 from '../public/images/solid-sign-2.jpg';
 import solidSign1 from '../public/images/solid-sign-1.jpg';
 import kama from '../public/images/kama.jpeg';
 
+const PREVIEW_COUNT = 3;
 
 const events = [
   {
@@ -86,7 +87,7 @@ const events = [
 
 export default () => {
   const [showMore, setShowMore] = useState(false);
-  const visibleEvents = showMore ? events : events.slice(0, 2);
+  const visibleEvents = showMore ? events : events.slice(0, PREVIEW_COUNT);
   return (
     <PageWithMenu>
       <Stack
