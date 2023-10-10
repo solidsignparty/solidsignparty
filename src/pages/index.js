@@ -23,6 +23,15 @@ const events = [
     date: new Date('2023-10-20'),
     img: solidSign7,
     href: "https://nabchelny.qtickets.events/85137-solid-sign-special-3",
+    eventProps: {
+      name: 'SOLID SIGN Special #3',
+      startDate: '2023-10-20',
+      startTime: '22:00',
+      endDate: '2023-10-21',
+      endTime: '05:00',
+      timezone: "Europe/Moscow",
+      location: "Dark Size"
+    },
     children: (
       <Stack>
         <Button

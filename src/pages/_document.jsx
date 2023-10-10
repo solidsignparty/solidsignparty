@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import 'add-to-calendar-button';
 
 export default function Document() {
   return (

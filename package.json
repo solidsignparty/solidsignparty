@@ -13,6 +13,8 @@
     "@fontsource/montserrat": "^4.5.14",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.14",
+    "add-to-calendar-button": "^2.4.3",
+    "add-to-calendar-button-react": "^2.4.3",
     "eslint-config-next": "^13.2.4",
     "next": "^13.2.4",
     "react": "^18.2.0",
