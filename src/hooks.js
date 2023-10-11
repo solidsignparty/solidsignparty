@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
+
 
 export const withOS = () => {
   const [osName, setOsName] = useState();
@@ -13,3 +16,15 @@ export const withOS = () => {
   });
   return osName;
 };
+
+export const withMaxWidth = () => {
+  const theme = useTheme();
+  const upSm = useMediaQuery(theme.breakpoints.up('sm'));
+  const upMd = useMediaQuery(theme.breakpoints.up('md'));
+  const upLg = useMediaQuery(theme.breakpoints.up('lg'));
+  let maxWidth = "sm";
+  if (upSm) { maxWidth = "sm" };
+  if (upMd) { maxWidth = "md" };
+  if (upLg) { maxWidth = "lg" };
+  return maxWidth;
+}

@@ -46,7 +46,25 @@ const theme = createTheme({
       'Arial', 
       'sans-serif',
     ].join(',')
-  }
+  },
+  components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          border: '5px solid #222',
+          borderRadius: 0,
+        },
+      },
+    },
+    MuiCardContent: {
+      styleOverrides: {
+        root: {
+          background: '#222',
+          borderRadius: 0,
+        },
+      },
+    },
+  },
 });
 
 export default function MyApp({ Component, pageProps }) {
