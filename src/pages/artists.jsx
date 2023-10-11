@@ -8,6 +8,7 @@ import afanasiev from '../public/images/afanasiev.jpeg';
 import skind from '../public/images/skind.jpeg';
 import electrostatic from '../public/images/electrostatic.jpeg';
 import progruss from '../public/images/progruss.jpeg';
+import plumbdump from '../public/images/plumbdump.jpeg';
 
 
 const Products = () => {
@@ -16,7 +17,7 @@ const Products = () => {
     <PageWithMenu maxWidth={maxWidth} >
       <Grid container spacing={2}>
         {itemData.map((item) => (
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid key={item.title} item xs={12} sm={6} md={4} lg={3}>
             <ArtistCard title={item.title} img={item.img} />
           </Grid>
         ))}
@@ -45,6 +46,10 @@ const itemData = [
   {
     img: afanasiev.src,
     title: 'DJAFF',
+  },
+  {
+    img: plumbdump.src,
+    title: 'Plumb Dump',
   },
 ];
 
