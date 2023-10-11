@@ -29,7 +29,7 @@ const events = [
       startTime: '22:00',
       endDate: '2023-10-21',
       endTime: '05:00',
-      timezone: "Europe/Moscow",
+      timeZone: "Europe/Moscow",
       location: "Dark Size"
     },
     children: (

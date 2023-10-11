@@ -3,8 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import 'add-to-calendar-button';
-import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import CalendarEvent from './CalendarEvent';
 
 const toDate = (d) => {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -29,11 +28,9 @@ export default ({ date, img, href, children, eventProps, ...props }) => {
         alignItems="center"
       >
         <Box>
-          {!upcoming && (
-            <Typography color="white">
-              {formatDate(date)}
-            </Typography>
-          )}
+          <Typography color="white">
+            {formatDate(date)}
+          </Typography>
           <Typography
             color="gray"
           >
@@ -44,19 +41,7 @@ export default ({ date, img, href, children, eventProps, ...props }) => {
           </Typography>
         </Box>
         {upcoming && eventProps && (
-          <AddToCalendarButton
-            {...eventProps}
-            size="2|2|1"
-            listStyle="dropdown-static"
-            hideBackground
-            hideIconButton
-            hideCheckmark
-            label="Добавить в календарь"
-            trigger="click"
-            buttonStyle="date"
-            identifier={date}
-            options={['Apple', 'Google']}
-          />
+          <CalendarEvent {...eventProps} />
         )}
       </Stack>
       <Stack alignItems="center" sx={{ pt: 2 }}>
