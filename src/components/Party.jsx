@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import CalendarEvent from './CalendarEvent';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const toDate = (d) => {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -20,14 +22,18 @@ const formatDate = (d) => (
 
 export default ({ date, img, href, children, eventProps, ...props }) => {
   const upcoming = !compareDate(new Date(), date);
+  const theme = useTheme();
+  const upSm = useMediaQuery(theme.breakpoints.up('sm'));
+  const alignItems = upSm ? 'center' : 'stretch';
+  const pb = upSm ? 0 : 2;
   return (
     <Box>
       <Stack
-        direction="row"
-        justifyContent="space-between"
-        alignItems="center"
+        direction={{ xs: 'column', sm: 'row' }}
+        justifyContent='space-between'
+        alignItems={alignItems}
       >
-        <Box>
+        <Box sx={{ pb }} >
           <Typography color="white">
             {formatDate(date)}
           </Typography>
