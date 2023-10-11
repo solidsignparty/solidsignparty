@@ -14,7 +14,7 @@ const ArtistCard = ({ img, title }) => {
           image={img}
           title={title}
         />
-        <CardContent sx={{ mb: '-10px' }} >
+        <CardContent>
           <Typography noWrap color="white" fontWeight="medium" >
             {title}
           </Typography>
