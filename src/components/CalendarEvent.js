@@ -30,9 +30,10 @@ const CalendarEvent = (props) => {
     <Tooltip title="Добавить в календарь">
       <Button
         color="button"
-        variant="contained"
+        variant="outlined"
         onClick={onClick}
         startIcon={<EventSharp />}
+        sx={{ width: 200 }}
       >
         Не забыть
       </Button>

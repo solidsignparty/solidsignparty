@@ -46,9 +46,11 @@ export default ({ date, img, href, children, eventProps, ...props }) => {
           }
           </Typography>
         </Box>
+    <Stack alignItems="center">
         {upcoming && eventProps && (
           <CalendarEvent {...eventProps} />
         )}
+    </Stack>
       </Stack>
       <Stack alignItems="center" sx={{ pt: 2 }}>
         <img
