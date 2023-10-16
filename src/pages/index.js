@@ -32,22 +32,6 @@ const events = [
       timeZone: "Europe/Moscow",
       location: "Dark Size"
     },
-    children: (
-      <Stack>
-        <Button
-          variant="outlined"
-          component="a"
-          target="_blank"
-          href="https://t.me/solidsignchat/11148"
-          sx={{
-            width: 200,
-          }}
-          color="button"
-        >
-          Проголосовать
-        </Button>
-      </Stack>
-    ),
   },
   {
     date: new Date('2023-09-29'),
