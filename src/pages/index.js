@@ -15,10 +15,25 @@ import solidSign3 from '../public/images/solid-sign-3.jpg';
 import solidSign2 from '../public/images/solid-sign-2.jpg';
 import solidSign1 from '../public/images/solid-sign-1.jpg';
 import kama from '../public/images/kama.jpeg';
+import allNight1 from '../public/images/akinov-all-night-1.jpg';
 
 const PREVIEW_COUNT = 3;
 
 const events = [
+  {
+    date: new Date('2023-12-01'),
+    img: allNight1,
+    href: "https://nabchelny.qtickets.events/92780-solid-sign-special-3-kopiya",
+    eventProps: {
+      name: 'AKINOV all night long',
+      startDate: '2023-12-01',
+      startTime: '22:00',
+      endDate: '2023-12-02',
+      endTime: '05:00',
+      timeZone: "Europe/Moscow",
+      location: "Dark Size"
+    },
+  },
   {
     date: new Date('2023-10-20'),
     img: solidSign7,
