@@ -16,10 +16,25 @@ import solidSign2 from '../public/images/solid-sign-2.jpg';
 import solidSign1 from '../public/images/solid-sign-1.jpg';
 import kama from '../public/images/kama.jpeg';
 import allNight1 from '../public/images/akinov-all-night-1.jpg';
+import playHard from '../public/images/PlayHard.jpeg';
 
 const PREVIEW_COUNT = 3;
 
 const events = [
+  {
+    date: new Date('2023-12-16'),
+    img: playHard,
+    href: "https://kazan.qtickets.events/93804-playhard-solid-sign",
+    eventProps: {
+      name: 'Play:Hard & SOLID SIGN',
+      startDate: '2023-12-16',
+      startTime: '22:00',
+      endDate: '2023-12-17',
+      endTime: '05:00',
+      timeZone: "Europe/Moscow",
+      location: "Казань, ул. Баумана 70, клуб Taboo",
+    },
+  },
   {
     date: new Date('2023-12-01'),
     img: allNight1,
