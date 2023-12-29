@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import reset from '../public/images/reset.jpg';
 import harsh from '../public/images/harsh.jpg';
 import urbantatar from '../public/images/urbantatar.jpg';
+import solidSign8 from '../public/images/solid-sign-8.jpg';
 import solidSign7 from '../public/images/solid-sign-7.jpg';
 import solidSign6 from '../public/images/solid-sign-6.jpg';
 import solidSign5 from '../public/images/solid-sign-5.jpg';
@@ -22,56 +23,70 @@ const PREVIEW_COUNT = 3;
 
 const events = [
   {
+    date: new Date('2024-01-05'),
+    img: solidSign8,
+    href: 'https://nabchelny.qtickets.events/97270-solid-sign-special-4-invites-rave-kzn',
+    eventProps: {
+      name: 'SOLID SIGN SPECIAL #4 invites RAVE KZN',
+      startDate: '2024-01-05',
+      startTime: '22:00',
+      endDate: '2024-01-06',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'Dark Size',
+    },
+  },
+  {
     date: new Date('2023-12-16'),
     img: playHard,
-    href: "https://kazan.qtickets.events/93804-playhard-solid-sign",
+    href: 'https://kazan.qtickets.events/93804-playhard-solid-sign',
     eventProps: {
       name: 'Play:Hard & SOLID SIGN',
       startDate: '2023-12-16',
       startTime: '22:00',
       endDate: '2023-12-17',
       endTime: '05:00',
-      timeZone: "Europe/Moscow",
-      location: "Казань, ул. Баумана 70, клуб Taboo",
+      timeZone: 'Europe/Moscow',
+      location: 'Казань, ул. Баумана 70, клуб Taboo',
     },
   },
   {
     date: new Date('2023-12-01'),
     img: allNight1,
-    href: "https://nabchelny.qtickets.events/92780-solid-sign-special-3-kopiya",
+    href: 'https://nabchelny.qtickets.events/92780-solid-sign-special-3-kopiya',
     eventProps: {
       name: 'AKINOV all night long',
       startDate: '2023-12-01',
       startTime: '22:00',
       endDate: '2023-12-02',
       endTime: '05:00',
-      timeZone: "Europe/Moscow",
-      location: "Dark Size"
+      timeZone: 'Europe/Moscow',
+      location: 'Dark Size'
     },
   },
   {
     date: new Date('2023-10-20'),
     img: solidSign7,
-    href: "https://nabchelny.qtickets.events/85137-solid-sign-special-3",
+    href: 'https://nabchelny.qtickets.events/85137-solid-sign-special-3',
     eventProps: {
       name: 'SOLID SIGN Special #3',
       startDate: '2023-10-20',
       startTime: '22:00',
       endDate: '2023-10-21',
       endTime: '05:00',
-      timeZone: "Europe/Moscow",
-      location: "Dark Size"
+      timeZone: 'Europe/Moscow',
+      location: 'Dark Size'
     },
   },
   {
     date: new Date('2023-09-29'),
     img: kama,
-    href: "https://kamarave.ru/",
+    href: 'https://kamarave.ru/',
   },
   {
     date: new Date('2023-09-16'),
     img: reset,
-    href: "https://instagram.com/r_set.fest?igshid=MzRlODBiNWFlZA==",
+    href: 'https://instagram.com/r_set.fest?igshid=MzRlODBiNWFlZA==',
   },
   {
     date: new Date('2023-09-08'),
@@ -96,7 +111,7 @@ const events = [
   {
     date: new Date('2023-04-28'),
     img: solidSign3,
-    objectPosition: "-1px -1px",
+    objectPosition: '-1px -1px',
   },
   {
     date: new Date('2022-09-16'),
@@ -114,8 +129,8 @@ export default () => {
   return (
     <PageWithMenu>
       <Stack
-        direction="column"
-        justifyContent="space-around"
+        direction='column'
+        justifyContent='space-around'
         spacing={5}
       >
         {visibleEvents.map((event) => (
@@ -124,7 +139,7 @@ export default () => {
         {!showMore && (
           <Stack sx={{pb: 5}}>
             <Button
-              color="button"
+              color='button'
               onClick={() => setShowMore(true)}
             >
               Показать все
