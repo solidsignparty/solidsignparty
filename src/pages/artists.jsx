@@ -9,6 +9,7 @@ import skind from '../public/images/skind.jpeg';
 import electrostatic from '../public/images/electrostatic.jpeg';
 import progruss from '../public/images/progruss.jpeg';
 import plumbdump from '../public/images/plumbdump.jpeg';
+import blooddrain from '../public/images/blooddrain.jpg';
 
 
 const Products = () => {
@@ -51,6 +52,10 @@ const itemData = [
     img: plumbdump.src,
     title: 'Plumb Dump',
   },
+  {
+    img: blooddrain.src,
+    title: 'BLØØDDRAIN',
+  }
 ];
 
 export default Products;
