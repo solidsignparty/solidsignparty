@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import reset from '../public/images/reset.jpg';
 import harsh from '../public/images/harsh.jpg';
 import urbantatar from '../public/images/urbantatar.jpg';
-// import solidSign8 from '../public/images/solid-sign-8.jpg';
+import solidSign8 from '../public/images/solid-sign-8.jpg';
 import solidSign7 from '../public/images/solid-sign-7.jpg';
 import solidSign6 from '../public/images/solid-sign-6.jpg';
 import solidSign5 from '../public/images/solid-sign-5.jpg';
@@ -22,20 +22,20 @@ import playHard from '../public/images/PlayHard.jpeg';
 const PREVIEW_COUNT = 3;
 
 const events = [
-  // {
-  //   date: new Date('2024-01-05'),
-  //   img: solidSign8,
-  //   href: 'https://nabchelny.qtickets.events/97270-solid-sign-special-4-invites-rave-kzn',
-  //   eventProps: {
-  //     name: 'SOLID SIGN SPECIAL #4 invites RAVE KZN',
-  //     startDate: '2024-01-05',
-  //     startTime: '22:00',
-  //     endDate: '2024-01-06',
-  //     endTime: '05:00',
-  //     timeZone: 'Europe/Moscow',
-  //     location: 'Dark Size',
-  //   },
-  // },
+  {
+    date: new Date('2024-01-19'),
+    img: solidSign8,
+    href: 'https://nabchelny.qtickets.events/97270-solid-sign-special-4-invites-rave-kzn',
+    eventProps: {
+      name: 'SOLID SIGN SPECIAL #4',
+      startDate: '2024-01-19',
+      startTime: '22:00',
+      endDate: '2024-01-20',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'FORMULA (Вахитова 9А)',
+    },
+  },
   {
     date: new Date('2023-12-16'),
     img: playHard,
