@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import reset from '../public/images/reset.jpg';
 import harsh from '../public/images/harsh.jpg';
 import urbantatar from '../public/images/urbantatar.jpg';
+import solidSignShift1 from '../public/images/solid-sign-shift-1.jpg';
 import solidSign8 from '../public/images/solid-sign-8.jpg';
 import solidSign7 from '../public/images/solid-sign-7.jpg';
 import solidSign6 from '../public/images/solid-sign-6.jpg';
@@ -22,6 +23,20 @@ import playHard from '../public/images/PlayHard.jpeg';
 const PREVIEW_COUNT = 3;
 
 const events = [
+  {
+    date: new Date('2024-02-02'),
+    img: solidSignShift1,
+    href: 'https://nabchelny.qtickets.events/99574-solid-sign-shift',
+    eventProps: {
+      name: 'SOLID SIGN Shift',
+      startDate: '2024-02-02',
+      startTime: '22:00',
+      endDate: '2024-02-03',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'Dark Size',
+    },
+  },
   {
     date: new Date('2024-01-19'),
     img: solidSign8,
