@@ -19,10 +19,25 @@ import solidSign1 from '../public/images/solid-sign-1.jpg';
 import kama from '../public/images/kama.jpeg';
 import allNight1 from '../public/images/akinov-all-night-1.jpg';
 import playHard from '../public/images/PlayHard.jpeg';
+import asylum from '../public/images/asylum.jpg'
 
 const PREVIEW_COUNT = 3;
 
 const events = [
+  {
+    date: new Date('2024-03-29'),
+    img: asylum,
+    href: 'https://moscow.qtickets.events/104229-asylum',
+    eventProps: {
+      name: 'SOLID SIGN showcase on Asylum',
+      startDate: '2024-03-29',
+      startTime: '22:00',
+      endDate: '2024-03-30',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'Aglomerat',
+    },
+  },
   {
     date: new Date('2024-02-02'),
     img: solidSignShift1,
