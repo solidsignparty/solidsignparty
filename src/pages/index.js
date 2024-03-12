@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import reset from '../public/images/reset.jpg';
 import harsh from '../public/images/harsh.jpg';
 import urbantatar from '../public/images/urbantatar.jpg';
+import solidSign9 from '../public/images/solid-sign-9.jpg';
 import solidSignShift1 from '../public/images/solid-sign-shift-1.jpg';
 import solidSign8 from '../public/images/solid-sign-8.jpg';
 import solidSign7 from '../public/images/solid-sign-7.jpg';
@@ -36,6 +37,20 @@ const events = [
       endTime: '05:00',
       timeZone: 'Europe/Moscow',
       location: 'Aglomerat',
+    },
+  },
+  {
+    date: new Date('2024-03-22'),
+    img: solidSign9,
+    href: 'https://nabchelny.qtickets.events/106302-solid-sign-special-5?fbclid=PAAaadwFVRlGEGSy6JqPOJYTKCFiypr524AUdE-X4Pq9AXVI5Gd6YGOf7imWM_aem_AaqdPdmKEjkYgequRixvhK2-pwox516Pg0NpLWYRSY9yv2BY6HLSJ2UkYqWUmHjR2_I',
+    eventProps: {
+      name: 'SOLID SIGN SPECIAL #5',
+      startDate: '2024-03-22',
+      startTime: '22:00',
+      endDate: '2024-03-23',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'Dark Size',
     },
   },
   {
