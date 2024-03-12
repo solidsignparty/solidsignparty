@@ -26,20 +26,6 @@ const PREVIEW_COUNT = 3;
 
 const events = [
   {
-    date: new Date('2024-03-29'),
-    img: asylum,
-    href: 'https://moscow.qtickets.events/104229-asylum',
-    eventProps: {
-      name: 'SOLID SIGN showcase on Asylum',
-      startDate: '2024-03-29',
-      startTime: '22:00',
-      endDate: '2024-03-30',
-      endTime: '05:00',
-      timeZone: 'Europe/Moscow',
-      location: 'Aglomerat',
-    },
-  },
-  {
     date: new Date('2024-03-22'),
     img: solidSign9,
     href: 'https://nabchelny.qtickets.events/106302-solid-sign-special-5?fbclid=PAAaadwFVRlGEGSy6JqPOJYTKCFiypr524AUdE-X4Pq9AXVI5Gd6YGOf7imWM_aem_AaqdPdmKEjkYgequRixvhK2-pwox516Pg0NpLWYRSY9yv2BY6HLSJ2UkYqWUmHjR2_I',
@@ -51,6 +37,20 @@ const events = [
       endTime: '05:00',
       timeZone: 'Europe/Moscow',
       location: 'Dark Size',
+    },
+  },
+  {
+    date: new Date('2024-03-29'),
+    img: asylum,
+    href: 'https://moscow.qtickets.events/104229-asylum',
+    eventProps: {
+      name: 'SOLID SIGN showcase on Asylum',
+      startDate: '2024-03-29',
+      startTime: '22:00',
+      endDate: '2024-03-30',
+      endTime: '05:00',
+      timeZone: 'Europe/Moscow',
+      location: 'Aglomerat',
     },
   },
   {
