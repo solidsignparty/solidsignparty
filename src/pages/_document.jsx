@@ -8,7 +8,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <script
             dangerouslySetInnerHTML={{
               __html: `
